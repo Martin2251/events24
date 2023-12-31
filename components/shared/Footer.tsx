@@ -1,8 +1,15 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className='border-t'>
+      <div>
+       <Link href="/" >
+        <Image
+        </Link> 
+      </div>
+    </footer>
   )
 }
 
